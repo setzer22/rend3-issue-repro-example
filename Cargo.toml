@@ -1,0 +1,15 @@
+[package]
+name = "rend3-repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glam = "0.20.0"
+env_logger = { version = "0.9", default-features = false, features = ["termcolor", "atty"] }
+rend3 = { git = "https://github.com/BVE-Reborn/rend3.git" } 
+rend3-routine = { git = "https://github.com/BVE-Reborn/rend3.git" }
+rend3-egui = { git = "https://github.com/BVE-Reborn/rend3.git" }
+rend3-gltf = { git = "https://github.com/BVE-Reborn/rend3.git" }
+pollster = "0.2"
+winit = "0.26"
+image = { version = "0.23", default-features = false, features = ["png", "jpeg", "tiff"]}
